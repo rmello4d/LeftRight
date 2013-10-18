@@ -1,0 +1,22 @@
+{
+    "name": "LeftRight",
+    "author": "Widget Developer",
+	"contributors": [
+	    "Ricardo Mello"
+	],
+    "version": "1.0.0",
+    "copyright": "(c) 2013 Widget Developer",
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/developer/Widget.git"
+	},
+	"keywords": ["wakanda", "widget"],
+	"engines": {"wakanda" : ">= 6"},
+	"license": "MIT", 
+    "loadDependencies": [
+    	{"id": "Widget_V2"},
+        {"id": "LeftRight/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "LeftRight/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "LeftRight/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
