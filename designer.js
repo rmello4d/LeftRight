@@ -1,8 +1,9 @@
-(function() {
-    var LeftRight = Widget.LeftRight.inherit(WAF.require('waf-behavior/studio'));
-	
-	// adding attributes to the Studio panel
-    LeftRight.addAttributes([{
+(function(LeftRight) {
+    
+    
+})();
+
+// For more information, refer to http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3870.html LeftRight.addAttributes([{
     	'name':'data-width',
     	'description':'Width',
     	'defaultValue': '250px'

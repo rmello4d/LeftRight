@@ -1,6 +1,6 @@
-(function() {
+WAF.define('LeftRight', function() {
+
     var widget = WAF.require('waf-core/widget');
-    var LeftRight = widget.create('LeftRight');
   
     //creating the widget
     var LeftRight = widget.create('LeftRight');
@@ -29,7 +29,8 @@
 			this.getPart('left').style('background', 'gray');
 		}.bind(this));
 	}
-
-})();
+	return LeftRight;
+});
 
 // For more information, refer to http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3871.html
+71.html
