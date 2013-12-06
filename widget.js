@@ -32,5 +32,4 @@ WAF.define('LeftRight', function() {
 	return LeftRight;
 });
 
-// For more information, refer to http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3871.html
-71.html
+// For more information, refer to http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3871.html71.html
